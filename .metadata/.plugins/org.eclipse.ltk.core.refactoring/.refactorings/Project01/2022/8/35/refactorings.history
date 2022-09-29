@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;common.ConnPool&apos; to &apos;DBConnPool&apos;&#x0D;&#x0A;- Original project: &apos;Project01&apos;&#x0D;&#x0A;- Original element: &apos;common.ConnPool&apos;&#x0D;&#x0A;- Renamed element: &apos;common.DBConnPool&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ConnPool&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;common{ConnPool.java[ConnPool" matchStrategy="1" name="DBConnPool" qualified="false" references="true" similarDeclarations="false" stamp="1661414906892" textual="false" version="1.0"/>
+</session>

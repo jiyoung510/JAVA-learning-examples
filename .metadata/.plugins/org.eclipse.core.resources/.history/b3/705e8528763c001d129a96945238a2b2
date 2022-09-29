@@ -1,0 +1,25 @@
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HelloWorldJSP</title>
+</head>
+<body>
+	<h2>JSP프로그래밍 : 실습환경 구축 확인을 위한 과제</h2>
+	<hr>
+	<div><p>0) 이미지(ex: 본인사진, 명함)</p><img src="../images/JSP.png"></div>
+	<div><p>1) 소속학과</p>컴퓨터공학과</div>
+	<div><p>2) 학번</p>2021109577</div>
+	<div><p>3) 이름</p>홍지영</div>
+	<div><p>4) 학년</p>4학년</div>
+	<div><p>5) 집위치(시,구,동)</p>수원시 권선구 권선동</div>
+	<div><p>6) 직장 위치(시,구,동)</p>서울시 성동구 왕십리로</div>
+	<div><p>7) 회사명</p>한양사이버대학교</div>
+	<div><p>8) 담당업무</p>재학생</div>
+	<div><p>9) 수강동기</p>새로운 프로그래밍 기법을 배워보기 위해서 입니다.</div>
+	<div><p>10) 바라는 점</p>기초부터 다져갈 수 있었으면 좋겠습니다. 잘 부탁드립니다.</div>
+</body>
+</html>

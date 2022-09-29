@@ -1,0 +1,25 @@
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HelloWorldJSP</title>
+</head>
+<body>
+	<h2>JSP프로그래밍 : 실습환경 구축 확인을 위한 과제</h2>
+	<hr>
+	<div><p>0) 이미지(ex: 본인사진, 명함)</p><img src=""></div>
+	<p><span style="display:block">1) 소속학과</span><img src=""></p>
+	<p><span style="display:block">2) 학번</span><img src=""></p>
+	<p><span style="display:block">3) 이름</span><img src=""></p>
+	<p><span style="display:block">4) 학년</span><img src=""></p>
+	<p><span style="display:block">5) 집위치(시,구,동)</span><img src=""></p>
+	<p><span style="display:block">6) 직장 위치(시,구,동)</span><img src=""></p>
+	<p><span style="display:block">7) 회사명</span><img src=""></p>
+	<p><span style="display:block">8) 담당업무</span><img src=""></p>
+	<p><span style="display:block">9) 수강동기</span><img src=""></p>
+	<p><span style="display:block">10) 바라는 점</span><img src=""></p>
+</body>
+</html>

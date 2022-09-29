@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>웹소켓 채팅</title>
+<script>
+	function chatWinOpen() {
+		var id = document.getElementById("chatId");
+		if(id.value == "") {
+			alert("대화명을 입력 후 채팅창을 열어주세요.");
+			id.focus();
+			return;
+		}
+		window.open("MVCChat.jsp?chatId=" + id.value, "", "width=320,height=400");
+		id.value="";
+	}
+</script>
+</head>
+<body>
+	대화명 : <input type="text" id="chatId" />
+	<button onclick="chatWinOpen();">채팅 참여</button>
+</body>
+</html>
